@@ -166,4 +166,4 @@ def show_all_charts(database, cuisines, city):
     plt.tight_layout()
     plt.show()
 
-show_all_charts("__.db", [], "city")
+show_all_charts("project.db", ["italian", "mexican", "chinese"], "Ann Arbor")
