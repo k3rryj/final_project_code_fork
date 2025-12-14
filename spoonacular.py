@@ -66,13 +66,3 @@ conn.commit()
 conn.close()
 print("Data from Spoonacular has been stored.")
 
-        
-
-
-
-
-
-
-
-
-key = 'e844287625d74e3fb4c74a4b55d9e923'
