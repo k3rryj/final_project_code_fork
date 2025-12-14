@@ -45,7 +45,7 @@ def setup_database():
     cur.execute("""
     CREATE TABLE IF NOT EXISTS restaurants (
         id INTEGER PRIMARY KEY,
-        place_id TEXT UNIQUE,
+        geoapify_id TEXT UNIQUE,
         name TEXT,
         city_id INTEGER,
         cuisine_id INTEGER,
